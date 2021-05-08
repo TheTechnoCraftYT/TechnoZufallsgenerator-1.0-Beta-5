@@ -27,14 +27,13 @@ namespace Zufallsgenerator_1._0
 
         private void Button_10_Click(object sender, RoutedEventArgs e)
         {
-            //code für den 1 - 10 Button
             Button_100.IsEnabled = false;
             Button_1000.IsEnabled = false;
             Button_10000.IsEnabled = false;
             Button_100000.IsEnabled = false;
             Button_1000000.IsEnabled = false;
             Butten_null.IsEnabled = true;
-            Text_BesimmteZahl.Content = "Warscheinlichkeit für bestimmte Zahl: 1 / 10";
+            Text_BesimmteZahl.Content = "Probability for certain number: 1/10";
             int Zahl2;
             Zahl2 = 10;
             Random rnd = new Random();
@@ -44,14 +43,13 @@ namespace Zufallsgenerator_1._0
 
         private void Button_100_Click(object sender, RoutedEventArgs e)
         {
-            //code für den 1 - 100 Button
             Button_10.IsEnabled = false;
             Button_1000.IsEnabled = false;
             Button_10000.IsEnabled = false;
             Button_100000.IsEnabled = false;
             Button_1000000.IsEnabled = false;
             Butten_null.IsEnabled = true;
-            Text_BesimmteZahl.Content = "Warscheinlichkeit für bestimmte Zahl: 1 / 100";
+            Text_BesimmteZahl.Content = "Probability for certain number: 1/100";
             int zahl2;
             zahl2 = 100;
             Random rnd = new Random();
@@ -61,14 +59,13 @@ namespace Zufallsgenerator_1._0
 
         private void Button_1000_Click(object sender, RoutedEventArgs e)
         {
-            //code für 1 - 1.000 Button
             Button_10.IsEnabled = false;
             Button_100.IsEnabled = false;
             Button_10000.IsEnabled = false;
             Button_100000.IsEnabled = false;
             Button_1000000.IsEnabled = false;
             Butten_null.IsEnabled = true;
-            Text_BesimmteZahl.Content = "Warscheinlichkeit für bestimmte Zahl: 1 / 1.000";
+            Text_BesimmteZahl.Content = "Probability for certain number: 1 / 10,000";
             int zahl2;
             zahl2 = 1000;
             Random rnd = new Random();
@@ -78,14 +75,13 @@ namespace Zufallsgenerator_1._0
 
         private void Button_10000_Click(object sender, RoutedEventArgs e)
         {
-            //code für 1 - 10.000 Button
             Button_10.IsEnabled = false;
             Button_100.IsEnabled = false;
             Button_1000.IsEnabled = false;
             Button_100000.IsEnabled = false;
             Button_1000000.IsEnabled = false;
             Butten_null.IsEnabled = true;
-            Text_BesimmteZahl.Content = "Warscheinlichkeit für bestimmte Zahl: 1 / 10.000";
+            Text_BesimmteZahl.Content = "Probability for certain number: 1 / 10,000";
             int zahl2;
             zahl2 = 10000;
             Random rnd = new Random();
@@ -95,14 +91,13 @@ namespace Zufallsgenerator_1._0
 
         private void Button_100000_Click(object sender, RoutedEventArgs e)
         {
-            //code für den 1 - 100.000 Button
             Button_10.IsEnabled = false;
             Button_100.IsEnabled = false;
             Button_1000.IsEnabled = false;
             Button_10000.IsEnabled = false;
             Button_1000000.IsEnabled = false;
             Butten_null.IsEnabled = true;
-            Text_BesimmteZahl.Content = "Warscheinlichkeit für bestimmte Zahl: 1 / 100.000";
+            Text_BesimmteZahl.Content = "Probability for a certain number: 1 / 100,000";
             int zahl2;
             zahl2 = 100000;
             Random rnd = new Random();
@@ -112,14 +107,13 @@ namespace Zufallsgenerator_1._0
 
         private void Button_1000000_Click(object sender, RoutedEventArgs e)
         {
-            //code für den 1 - 1.000.000 Button
             Button_10.IsEnabled = false;
             Button_100.IsEnabled = false;
             Button_1000.IsEnabled = false;
             Button_10000.IsEnabled = false;
             Button_100000.IsEnabled = false;
             Butten_null.IsEnabled = true;
-            Text_BesimmteZahl.Content = "Warscheinlichkeit für bestimmte Zahl: 1 / 1.000.000";
+            Text_BesimmteZahl.Content = "Probability for certain number: 1 / 1,000,000";
             int zahl2;
             zahl2 = 1000000;
             Random rnd = new Random();
@@ -129,7 +123,6 @@ namespace Zufallsgenerator_1._0
 
         private void Butten_null_Click(object sender, RoutedEventArgs e)
         {
-            //code für den clear Button
             Button_10.IsEnabled = true;
             Button_100.IsEnabled = true;
             Button_1000.IsEnabled = true;
@@ -137,13 +130,12 @@ namespace Zufallsgenerator_1._0
             Button_100000.IsEnabled = true;
             Button_1000000.IsEnabled = true;
             Butten_null.IsEnabled = false;
-            MainText.Content = "Generierte Zahl";
+            MainText.Content = "Generated number";
             Text_BesimmteZahl.Content = "";
         }
 
         private void Button_block_Click(object sender, RoutedEventArgs e)
         {
-            //code für den block Button
             Button_10.IsEnabled = false;
             Button_100.IsEnabled = false;
             Button_1000.IsEnabled = false;
@@ -157,7 +149,6 @@ namespace Zufallsgenerator_1._0
 
         private void Button_unlock_Click(object sender, RoutedEventArgs e)
         {
-            //code für den unlock Button
             Button_10.IsEnabled = true;
             Button_100.IsEnabled = true;
             Button_1000.IsEnabled = true;
@@ -168,7 +159,7 @@ namespace Zufallsgenerator_1._0
             Button_block.IsEnabled = true;
             Button_unlock.IsEnabled = false;
             Text_BesimmteZahl.Content = "";
-            MainText.Content = "Generierte Zahl";
+            MainText.Content = "Generated number";
         }
     }
 }

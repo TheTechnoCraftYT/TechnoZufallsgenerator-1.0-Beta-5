@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Zufallsgenerator_1._0"
         mc:Ignorable="d"
-        Title="TechnoZufallsgenerator 1.0 Indev 3" Height="500" Width="580">
+        Title="TechnoZufallsgenerator 1.0 Beta 5" Height="500" Width="580">
     <Grid>
         <Button x:Name="Button_10" FontSize="20" Margin="32,247,368,149" Cursor="Hand" Click="Button_10_Click">
             1 - 10
@@ -26,17 +26,17 @@
             1 - 1.000.000
         </Button>
         <Button x:Name="Butten_null" Margin="223,377,223,34" Cursor="Hand" IsEnabled="False" Click="Butten_null_Click">
-            Eingabe wiederufen
+            Revoke input
         </Button>
-        <Label Name="MainText" Margin="10,91,10,316" Content="GenerierteZahl" FontSize="48" FontFamily="Arial Black">
+        <Label Name="MainText" Margin="10,91,10,316" Content="Generated number" FontSize="48" FontFamily="Arial Black">
         </Label>
         <Label x:Name="Text_BesimmteZahl" Margin="32,168,32,250" Content="" FontSize="16">
         </Label>
         <Button x:Name="Button_block" Margin="385,0,95,414" Click="Button_block_Click">
-            Knöpfe sperren
+            Lock buttons
         </Button>
         <Button x:Name="Button_unlock" Margin="470,0,10,414" Click="Button_unlock_Click" IsEnabled="False">
-            Entsperren
+            Unlock
         </Button>
     </Grid>
 </Window>
